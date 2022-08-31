@@ -1,19 +1,15 @@
 import streamlit as st
-import pandas as pd
-# st.title("Learning Streamlit")
-
-# st.header("Learning Streamlit")
-# st.markdown("Learning Streamlit")
-
-# st.caption("Learning Streamlit")
 
 
-# x = '''for i in range(1,4):
-#      print("Hello, Streamlit!")'''
-# st.code(x)
+x = st.radio('Are you a student',options=['Yes', 'No'], index=0)
+
+if(x=="Yes"):
+    st.write("Yes he is a student")
+else:
+    st.write("No he is not a student")
 
 
-st.latex("Learning Streamlit")
+
 
 
 
